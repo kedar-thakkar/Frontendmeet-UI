@@ -1,0 +1,104 @@
+/******************* profile-popup **********************/
+svg.js-edit.pass_hide {display: block !important;}
+
+.input_box {padding-bottom: 10px !important;}
+.profile_box_head a{display: inline-block;}
+.profile_image_icon {display: inline-block;position: relative;}
+.profile_camera_image_icon {
+    position: absolute;
+    bottom: -7px;
+    cursor: pointer;
+    display: inline-block;
+    right: -10px;
+    width: 27px;
+    height: 27px;
+}
+.profile_camera_image_icon input#profile_upload {
+    opacity: 0;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.profile_btn {justify-content: flex-start;}
+.profile_input label {padding: 0 15px 0 0;margin: 0;font-size: 15px;text-align: right;font-weight: 400;width: 35%;color: #605F6D;}
+.profile_input p{font-size: 16px;color: #000000; border: none;background: none;}
+.profile_image.input_col_12 { position: relative; width: 20%;}
+.profile_image_icon_one img {border-radius: 10px;height: 150px;width: 150px;object-fit: cover;object-position: center;}
+.profile_camera_image_icon img {width: auto;height: auto;}
+.profile_input_edit {display: flex;align-items: center;justify-content: space-between;width: 70%;position: relative;overflow: hidden;border-radius: 5px;}
+.profile_input {display: flex; align-items: center; padding: 6px 0; border-bottom: 1px solid #F5F4F5;}
+.profile_input_edit a { position: absolute; right: 0; top: 0; bottom: 0; width: 40px; display: flex; justify-content: center; align-items: center; border-left: 1px solid rgb(155 170 186 / 45%);}
+.profile_input_edit a:hover{
+    background: #F16A54;
+    border-color: #F16A54;
+}
+.profile_input_edit a:hover svg path {
+    fill: #fff;
+}
+.profile_input_edit p {font-size: 16px;color: #3E3E4C;}
+.close_icon svg {max-width: 18px;}
+.modal-body{padding: 0;}
+.profile_input:last-child{padding-bottom: 0 !important; border-bottom: 0 !important;}
+.foot_main .profile_btn{padding: 0;}
+.open_remove_password label {padding-bottom: 0;}
+.profile_info_side {width: 80%;}
+.btn_hide {display: none;}
+.profile_input_edit input {box-shadow: 0px 0px 0.9375em rgb(0 0 0 / 4%) !important;height: 3.125em !important;width: 100% !important;border: 0 !important;padding: 0 1.25em !important;background: #e9ecef;border-radius: 2px;}
+.profile_input {display: flex;align-items: center;padding: 0 0;border-bottom: 0;}
+.is-editing .btn_hide{display: block;}
+.profile_edit_btn {display: flex;align-items: center;position: absolute;right: 0;top: 0;bottom: 0;justify-content: center;}
+.name_edit_btn {
+    height: 100%;
+    border: 0;
+    width: 43px;
+    padding: 0;
+    border-left: 1px solid rgb(155 170 186 / 45%);
+    background: transparent;
+}
+.name_edit_btn:hover {
+    background: #F16A54;
+    border-color: #F16A54;
+}
+.name_edit_btn:hover svg path {
+    fill: #fff;
+}
+.is-editing .name_edit_btn_box {display: none;}
+.name_edit_btn.btn-default {
+    padding: 0;
+    border-radius: 0;
+    border-left: 1px solid rgb(155 170 186 / 45%);
+}
+.name_edit_btn.btn-default:hover {
+    background: #F16A54;
+    border-color: #F16A54;
+}
+.input_box_mane_info {width: 100%;}
+
+.js-save {padding: 0 13px 0px 0;background: none;border: none; box-shadow: none !important;}
+.info_new_password input {width: 70%;background: #e9ecef;height: 40px;padding: 0 15px;border: 0;     font-size: 14px;color: #3E3E4C;line-height: 18px; border-radius: 2px;}
+.new_password_btn {padding-top: 30px;}  
+.add_new_password {display: none;}
+.intro .add_new_password {display: block;}
+.intro .open_remove_password{display: none;}
+.open_remove_password {padding-bottom: 0 !important;}
+
+.profile_image_icon_one img {border-radius: 10px;height: 150px;width: 150px;object-fit: cover;object-position: center;}
+.profile_camera_image_icon img {width: auto;height: auto;}
+img{vertical-align:top;max-width:100%;height:auto;border:none}
+.input_box_mane_info input{font-size:14px;color:#3E3E4C;line-height:18px;}
+.modal-header{padding: 0 0 10px 0;border: 0;}
+.foot_main {display: flex;flex-wrap: wrap;align-items: flex-start;padding-top: 10px;}
+.modal-content{background: #FFFFFF;border-radius: 10px;padding: 30px;}
+
+.show-error{color: rgb(235, 57, 57);}
+.add_new_password .show-error {
+    position: relative;
+    left: 34%;
+}
+
+/******************* profile-popup **********************/
+
+

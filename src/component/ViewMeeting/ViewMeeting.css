@@ -1,0 +1,65 @@
+
+
+/******************* view_all **********************/
+
+
+.view_all_info_popup{max-width:850px;}
+.view_daily_info{padding:15px;max-width:314px;width:65%;margin-bottom:15px;}
+.view_daily_time_info{width:100%;padding-top:10px;justify-content:flex-start;}
+.from_text p{font-size:14px;padding-right:12px;}
+.view_all_right{justify-content:inherit;margin-left:auto; border-left: 1px solid #E5E5E5;padding-left: 20px;}
+.description_box_view_all label{margin:0;line-height:21px;font-size:15px;font-weight:500;color:#b8b8b8;}
+.description_box_view_all textarea{width:100%;border:0;padding-bottom:5px;resize:none!important;border-bottom:1px solid #E5E5E5;margin:0;height:28px!important;}
+.description_box_view_all {padding: 25px 0 10px 0;}
+.participants_view{display:flex;align-items:center;}
+.participants_view_left span{border-radius:100%;height:35px;font-size:21px;font-weight:500;width:35px;display:flex;align-items:center;justify-content:center;cursor:pointer;}
+.participants_view_left img{height:35px;width:35px;border-radius: 100%;}
+.participants_view_right{padding-left:10px;}
+.participants_view_right span{font-style:normal;font-weight:500;font-size:16px;line-height:22px;color:#000000;}
+.participants_view_right p{font-size:14px;line-height:21px;color:#252525;}
+.date_view_all{display:flex;align-items:center;padding-right:80px;}
+.date_view_all_text{display:block;padding-left:14px;}
+.date_view_all_text span{font-size:12px;font-weight:500;color:#989696;}
+.date_view_all_text p{font-size:16px;font-weight:400;color:#000;}
+.view_all_left{display:flex;align-items:center;padding:10px 0;}
+.date_view_all svg{opacity:0.5;font-size:23px;}
+.description_see_more a{color:#f16a54;font-size:13px;}
+.description_box_view_all p{padding-top:4px;font-size:17px;line-height:25px;}
+.view_all_title h4{padding:0;padding-bottom:20px;}
+.participants_view_main{display:flex;align-items:center;padding:0 0 0 0;}
+.participants_view_title h5{margin:0;line-height:23px;font-size:15px;font-weight:500;color:#b8b8b8;}
+.participants_info_next{padding-right:30px;}
+.participants_view_title{padding-right:30px;}
+.view_all_title{padding-bottom:20px;}
+.invite_more svg{height:20px;width:20px;}
+.invite_more{display:flex;align-items:center;}
+.invite_more p{padding-left:10px;font-size:15px;line-height:23px;}
+.participants_view_left{padding:2px;border:1px solid #E5E5E5;border-radius:50%;margin-right:8px;}
+
+.participants_1{background: #EBE1FF; color: #5A1EF0;}
+.participants_2{background: #D4F8FF; color: #17D4FF;} 
+.participants_3{ background: #FFEEE1; color: #FF7321;}
+.participants_4{ background: #FFF0C5; color: #F0BB2D;}
+.participants_5{ background: #CEF9E7; color: #0FD479;}
+
+.all_grups {display: flex;align-items: flex-start; padding-top: 25px;}
+
+.bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before, .bs-tooltip-bottom .tooltip-arrow::before { border-bottom-color: #f27965;}
+.tooltip-inner { background-color: #f16a54;}    
+
+.add_more {z-index: 9;display: inline-block;position: absolute;bottom: 55px !important;right: 0;background: #f0f0f0;width: 100%;padding: 20px 0;display: flex;align-items: center;justify-content: center;}
+.meeting_details_right {position: relative;}
+.meeting_details_right a{padding: 0;}
+.delete_btn_center {
+    justify-content: center;
+}
+
+
+.border_animation {width: 35px;height: 35px;position: relative;display: flex;justify-content: center;align-items: center;padding: 5px; cursor: pointer;}  
+.border_animation svg {position: relative;z-index: 1; max-width: 18px;}
+.border_css {border: 2px dashed #FF6610;position: absolute;width: 100%;border-radius: 100%;height: 100%;animation: spin 5s linear infinite;}
+@keyframes spin { 100% { transform: rotateZ(360deg);}}
+.modal-content{background: #FFFFFF;border-radius: 10px;padding: 30px;}
+.modal-dialog {
+    position: relative;}
+/******************* view_all **********************/

@@ -1,0 +1,377 @@
+/******************* Meeting  **********************/
+.meeting_section {
+  padding: 40px 0;
+}
+.metting_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.right_meet_section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.meet_calender input {
+  font-family: "Poppins", sans-serif !important;
+  border: 1px solid #ffffff00;
+  width: 100%;
+  border-radius: 5px !important;
+  padding: 12px 20px;
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.search_box {
+  margin: 0 20px;
+  position: relative;
+}
+.search_box input {
+  border-radius: 4px;
+  border: solid 1px #ffffff;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: normal;
+  color: #040406;
+  padding: 12px 20px;
+  width: 100%;
+  font-family: "Poppins", sans-serif !important;
+  transition: all ease 0.3s 0s;
+}
+.search_box input::placeholder {
+  color: #808080;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif !important;
+}
+.search_box input:focus,
+.meet_calender input:focus {
+  border-color: #f16a54;
+  box-shadow: 0 2px 4px rgb(241 106 84 / 26%);
+}
+.search_icon {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  opacity: 0.2;
+  cursor: pointer;
+}
+input[type="date"i]::-webkit-calendar-picker-indicator {
+  width: 14px;
+  height: 14px;
+  background: url(../../assets/img/calender_icon.svg) no-repeat center;
+  background-size: 100%;
+  padding: 0;
+  cursor: pointer;
+}
+
+/*************** Profile Page ****************/
+
+.profile_bg_img img{width:100%;}
+.date_info_suport_bar{text-align:right;padding-right:20px;}
+.orange{color:#F16A54;}
+.grey{color:#B3B3B3;}
+.join_now{line-height:36px;padding:0px 35px;}
+.date_info_main{display:flex;align-items:flex-start;padding-bottom:30px;margin-bottom:30px;border-bottom:1px solid #E5E5E5;}
+.date_info_suport_bar h5{font-family:Poppins;font-style:normal;font-weight:normal;font-size:21px;line-height:20px;}
+.date_info_suport_bar strong{font-family:Poppins;font-style:normal;font-weight:bold;font-size:30px;line-height:35px;}
+.date_info_suport_bar h3{font-family:Poppins;font-style:normal;font-weight:normal;font-size:21px;line-height:25px;}
+.date_info_box{width:93%;border-left:1px solid #E5E5E5;}
+.date_info_box_left{display:flex;width:100%;align-items:center;padding-bottom:20px; padding-left: 20px;}
+.date_info_box_left h6{font-family:Poppins;font-style:normal;font-weight:normal;font-size:16px;line-height:25px;color:#000000;max-width:284px;}
+.daily_standup{border-radius:0px 10px 10px 0px;padding:10px;max-width:275px;width:28%;border-left:2px solid;}
+.meeting_list_otr{background:#FFFFFF;box-shadow:0px 0px 15px rgb(0 0 0 / 4%);border-radius:15px;padding:30px;}
+.foot_main {display: flex;flex-wrap: wrap;align-items: flex-start;padding-top: 10px;}
+.profile_bg_img img {
+  width: 100%;
+}
+.date_info_suport_bar {
+  text-align: right;
+  width: 7%;
+  padding-right: 20px;
+}
+.orange {
+  color: #f16a54;
+}
+.grey {
+  color: #b3b3b3;
+}
+.join_now {
+  line-height: 36px;
+  padding: 0px 35px;
+}
+.date_info_main {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.date_info_suport_bar h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 20px;
+}
+.date_info_suport_bar strong {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+.date_info_suport_bar h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+}
+.date_info_box {
+  width: 93%;
+  border-left: 1px solid #e5e5e5;
+}
+.date_info_box_left {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.date_info_box_left h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+  max-width: 284px;
+}
+.daily_standup {
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  max-width: 275px;
+  width: 28%;
+  border-left: 2px solid;
+}
+.meeting_list_otr {
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 4%);
+  border-radius: 15px;
+  padding: 30px;
+}
+.foot_main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+/******************** Daily Standup color *********************/
+
+.green {
+  background: #ecfbf8;
+  border-color: #7ee5d0;
+}
+.red {
+  background: #fdedea;
+  border-color: #f38775;
+}
+.purple {
+  background: #eeeaf9;
+  border-color: #8d73d7;
+}
+.yellow {
+  background: #fffaeb;
+  border-color: #fcdf7c;
+}
+
+/******************** Daily Standup color *********************/
+
+.mail_box_main {
+  display: flex;
+  align-items: center;
+  width: 18%;
+  justify-content: center;
+}
+.mail_box_info p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  padding-right: 10px;
+}
+.number_key a {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: #ecfbf8;
+  display: block;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 10px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time_info {
+  opacity: 0.3;
+  /* text-align: center; */
+  width: 50%;
+}
+.time_info span {
+  display: inline-block;
+  padding-left: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  padding-right: 20px;
+}
+.time_hour_info {
+  display: flex;
+  align-items: center;
+  width: 27%;
+  justify-content: flex-start;
+}
+
+.hour_info, .time_hour_info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hour_info {
+  background: #f1f9ff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+.hour_info span {
+  display: inline-block;
+  padding-left: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.5;
+}
+.popup_edit_info {
+  display: flex;
+  align-items: center;
+  width: 18%;
+  justify-content: center;
+}
+.edit_box {
+  width: 28px;
+  height: 28px;
+  background: #d1d4d6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.delete_box {
+  width: 28px;
+  height: 28px;
+  background: #ffccd0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view_all {
+  width: 28px;
+  height: 28px;
+  background: #fce1dd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.meeting_list_otr .date_info_main:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.date_info_box_left:last-child {
+  padding-bottom: 0;
+}
+.date_info_main:last-child {
+  margin-bottom: 0;
+}
+.login_box {
+  display: flex;
+  align-items: center;
+}
+.login_box h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  padding-right: 10px;
+}
+.edit_box,
+.delete_box,
+.view_all {
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 13px;
+  color: #333;
+  margin: 0;
+  overflow-x: hidden;
+  background: #f9fcff;
+}
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+.center_mood {
+  text-align: center;
+  justify-content: center;
+}
+
+/* Not Found Css Meeting */
+
+.meeting_not_found {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.meeting_btn_view_box {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 104px;
+  max-width: 104px;
+}
